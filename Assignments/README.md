@@ -1,5 +1,5 @@
 ## Assignments
 
-|  #  | Folder Link | Assignment Description |
-| :-: | ----------- | ---------------------- |
-|  0  | link 0      | description 0          |
+| # | Folder Link | Assignment Description |
+|:-:|-------------|------------------------|
+| 1 | [Program_00](Assignments/Program_00/) | SDL2 window: “Game of Life — Program 00” |
