@@ -16,5 +16,5 @@ Opens a window titled **“Game of Life — Program 00”** and fills it with a 
 ### Instructions
 
 - Build in the **MSYS2 MinGW 64-bit** shell.
--Very finicky and annoying.
-
+- Very finicky and annoying.
+- Runs for a few seconds with a maroon background.
