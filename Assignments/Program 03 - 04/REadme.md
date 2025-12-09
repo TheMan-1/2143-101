@@ -1,4 +1,4 @@
-# **A03–A04 - Program 03–04 (FULL GAME OF LIFE SDL2)**
+# **Program 03–04**
 
 ### **Gage Woodall**
 
@@ -16,21 +16,22 @@ This version supports:
 * Loading classic Life patterns (glider, blinker, gun, etc.)
 * Command-line configuration (window size, cell size, speed)
 
-Uses the professor’s **ConwayLife** logic — no rules were rewritten.
-
 ---
 
-## **Files**
+|  #  | File                      | Description                                                     |
+| :-: | ------------------------- | --------------------------------------------------------------- |
+|  1  | **SDL_GOL_main.cpp**      | Main SDL2 program (rendering, input, simulation loop, patterns) |
+|  2  | **shapes.json**           | Contains all Life patterns (glider, gun, r-pentomino, etc.)     |
+|  3  | **ConwayLife.hpp**        | Professor’s Game of Life logic                                  |
+|  4  | **CellularAutomaton.hpp** | Base automaton class                                            |
+|  5  | **AutomatonUtils.hpp**    | Helper functions                                                |
+|  6  | **argsToJson.hpp**        |                |
+|  7  | **json.hpp**              |JSON                                         |
+|  8  | **Screen.hpp**            | Provided screen class                         |
+|  9  | **click.cpp**             | Clicking example file                           |
+|  10 | **Makefile**              | Builds and runs the whole project                               |
 
-|  #  | File                    | Description                                          |
-| :-: | ----------------------- | ---------------------------------------------------- |
-|  1  | `SDL_GOL_main.cpp`      | Main SDL2 program (grid, input, rendering, patterns) |
-|  2  | `shapes.json`           | JSON pattern file used to load Life shapes           |
-|  3  | `ConwayLife.hpp`        | Professor’s Conway Game of Life logic                |
-|  4  | `CellularAutomaton.hpp` | Base automaton class used by ConwayLife              |
-|  5  | `argsToJson.hpp`        | Command-line argument parsing                        |
-|  6  | `Program_03-04.exe`     | Compiled executable (optional)                       |
-| ETC | Files From Before       | Anything needed for json.hpp or SDL2                 |
+
 
 ---
 
